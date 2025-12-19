@@ -3,4 +3,7 @@ project(thread_supervisor C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(thread_supervisor main.c)
+add_executable(
+        thread_supervisor
+        main.c
+)
